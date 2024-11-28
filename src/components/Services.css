@@ -1,0 +1,58 @@
+/*Start services*/
+.services{
+padding-top: var(--section-padding);
+padding-bottom: var(--section-padding);
+}
+.services .services-content {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 20px;
+}
+.services .services-content .images img{
+    width: 300px;
+    height: 300px;
+}
+.services .services-content .images {
+    position: relative;
+    text-align: center;
+}
+.services .services-content .images::before{
+    content: '';
+    width: 80px;
+    height: calc(100% + 50px);
+    background-color: var(--secondry-color);
+    position: absolute;
+    top: -25px;
+    right: 0;
+    z-index: -1;
+}
+@media ( max-width : 1199px){
+  .image-column{
+    display: none;
+  }
+}
+.services .services-content .serv{
+    display: flex;
+    margin-bottom: 40px;
+}
+.services .services-content .i{
+    font-size: 100px;
+    margin-top: -27px;
+    padding-right: 20px;
+    color: var(--main-color);
+    flex-basis: 60px;
+
+}
+.services .services-content .text{
+    flex: 1;
+}
+.services .services-content .text h3{
+    margin: 0 0 20px;
+}
+.services .services-content .text p{
+    color: #777;
+    font-weight: 300;
+    line-height: 1.6;
+}
+/*End services*/

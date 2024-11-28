@@ -1,0 +1,17 @@
+.card {
+    background-color: white;
+}
+.card img{
+    max-width: 100%;
+ } 
+ .card .info{
+    padding: 20px;
+ }
+ .card .info h3{
+  margin: 0;
+ }
+.card .info p{
+   margin-bottom: 0;
+   line-height: 1.6;
+   background-color:var(--section-background) ;
+ }

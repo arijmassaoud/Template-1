@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+  --main-color:#10cab7;
+  --secondry-color:#2c4755;
+  --section-padding:60px;
+  --section-background:#F6F6F6;
+}
+
+*{
+  scroll-behavior: smooth;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+}
+.App {
+  font-family: 'Work Sans';
+}
+.container{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Small Screens */
+@media (min-width: 768px) {
+  .container{
+    width: 750px;
+  }
+}
+/* Medium Screens */
+@media (min-width: 992px) {
+  .container{
+    width: 970px;
+  }
+}
+
+/* Large Screens */
+@media (min-width: 1200px) {
+  .container{
+    width: 1170px;
+  }
+}
+
+/* Custom */
+@media (max-width: 1199px) {
+  /* Your custom styles */
+}
+
+

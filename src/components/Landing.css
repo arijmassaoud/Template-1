@@ -1,0 +1,27 @@
+/*Start Landing*/
+.landing{
+    background-image: url(../../public/images/landing.jpg);
+    background-size: cover;
+    height: calc(100vh - 76px);
+    text-align: center;
+    padding: 70px;
+    position: relative;
+}
+.landing .intro-text {
+    padding: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    width: 450px;
+    max-width: 100%;
+    transform: translate(-50%,-50%);
+}
+.landing .intro-text h1{
+    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+/*End Landing*/
